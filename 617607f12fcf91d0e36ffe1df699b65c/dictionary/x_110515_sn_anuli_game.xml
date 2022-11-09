@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="17b7c7752fcf91d0e36ffe1df699b623" label="Game" max_length="40" name="x_110515_sn_anuli_game" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Guess Obj" max_length="255" name="guess_obj" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Player" max_length="32" name="player" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Word" max_length="40" name="word" type="string"/>
+        <index name="index">
+            <element name="player"/>
+        </index>
+    </element>
+</database>

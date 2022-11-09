@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_110515_sn_anuli.player</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_110515_sn_anuli.player</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>lauri.alakulppi</sys_created_by>
+        <sys_created_on>2022-11-09 19:59:32</sys_created_on>
+        <sys_id>2c96cbb12fcf91d0e36ffe1df699b6ec</sys_id>
+        <sys_name>x_110515_sn_anuli.player</sys_name>
+        <sys_package display_value="sn-anuli" source="x_110515_sn_anuli">617607f12fcf91d0e36ffe1df699b65c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="sn-anuli">617607f12fcf91d0e36ffe1df699b65c</sys_scope>
+        <sys_update_name>sys_user_role_2c96cbb12fcf91d0e36ffe1df699b6ec</sys_update_name>
+    </sys_user_role>
+</record_update>
